@@ -61,7 +61,7 @@ let performOperation = (clickObj) => {
       evalStringArray.push(pendingVal);
       evalStringArray.push('*');
       break;
-    case '/':
+    case '&#247':
       pendingVal = displayVal;
       displayVal = '0';
       displayValElement.innerHTML = displayVal;
